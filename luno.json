@@ -1,0 +1,25 @@
+{
+  "name": "DictationExperiment",
+  "version": "1.0.0",
+  "description": "Speech Experiment Sandbox & DictationDocs Architecture Viewer",
+  "type": "luno-web-app",
+  "entrypoint": {
+    "file": "DictationExperiment.js",
+    "class": "DictationExperiment",
+    "method": "run"
+  },
+  "main": [
+    "DictationExperiment.js"
+  ],
+  "library": [
+    "DomBasics.js",
+    "UITools.js",
+    "DictationDocs.js",
+    "DictationLattice.js",
+    "LatticeSurface.js",
+    "DictationPolicy.js",
+    "DictationEngineAdapter.js",
+    "DictationWidget.js"
+  ],
+  "styles": []
+}
